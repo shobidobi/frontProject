@@ -9,18 +9,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f0031ae-79f6-4da1-9a1a-c1804c304608" name="Changes" comment="create a jar file">
-      <change afterPath="$PROJECT_DIR$/javafx/src/main/java/front/Register.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javafx/src/main/java/front/Scene_Manager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javafx/src/main/resources/front/register.fxml" afterDir="false" />
+    <list default="true" id="7f0031ae-79f6-4da1-9a1a-c1804c304608" name="Changes" comment="add login">
+      <change afterPath="$PROJECT_DIR$/javafx/src/main/java/front/ForgotPassword.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx/src/main/java/targiil/Point2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx/src/main/resources/front/forgot_Password.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/javafx/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/javafx/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javafx/src/main/java/Logic/Tile.java" beforeDir="false" afterPath="$PROJECT_DIR$/javafx/src/main/java/Logic/Tile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/javafx/src/main/java/front/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/javafx/src/main/java/front/HelloApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javafx/src/main/java/front/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/javafx/src/main/java/front/HelloController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/javafx/src/main/java/front/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/javafx/src/main/java/front/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javafx/src/main/java/front/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/javafx/src/main/java/front/Register.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javafx/src/main/java/front/Scene_Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/javafx/src/main/java/front/Scene_Manager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/javafx/src/main/java/front/TryApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/javafx/src/main/java/front/TryApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javafx/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/javafx/src/main/java/module-info.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/javafx/src/main/resources/front/login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/javafx/src/main/resources/front/login.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javafx/src/main/resources/front/register.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/javafx/src/main/resources/front/register.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/front/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/front/hello-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,9 +38,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="module-info" />
-        <option value="Interface" />
         <option value="FxmlFile" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -67,6 +71,8 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Application.Main1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.main.executor&quot;: &quot;Run&quot;,
     &quot;JPA.DatabaseSchemaImportDialog&quot;: &quot;19a1ace9-47c6-4cdf-b64e-d61bb22169ec&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -74,6 +80,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;21&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_directory_selection&quot;: &quot;C:/Users/ariel/IdeaProjects/javafx-project/javafx/src/main/java/Login&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/ariel/IdeaProjects/javafx-project/javafx/src/main/resources/front&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -81,7 +88,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.345977&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
@@ -173,11 +180,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="targiil.main" />
+      <module name="javafx" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="targiil.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="javafx-project.jar" type="JarApplication" temporary="true">
       <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/javafx_project_jar/javafx-project.jar" />
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Application.main" />
       <item itemvalue="Application.Main1" />
       <item itemvalue="Application.com.example.javafx.HelloApplication" />
       <item itemvalue="Application.HelloApplication" />
@@ -186,11 +207,19 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main1" />
+        <item itemvalue="Application.main" />
         <item itemvalue="Application.com.example.javafx.HelloApplication" />
         <item itemvalue="Application.HelloApplication" />
         <item itemvalue="JAR Application.javafx-project.jar" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.1-openjdk-21.0.1-3183f394aec4-7d648f2c" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -237,7 +266,17 @@
       <workItem from="1700577005906" duration="477000" />
       <workItem from="1700765980994" duration="608000" />
       <workItem from="1701181895849" duration="1763000" />
-      <workItem from="1701293948480" duration="1694000" />
+      <workItem from="1701293948480" duration="2657000" />
+      <workItem from="1701871238318" duration="4859000" />
+      <workItem from="1702026832546" duration="4708000" />
+      <workItem from="1702198139673" duration="535000" />
+      <workItem from="1702198813600" duration="5924000" />
+      <workItem from="1702225681150" duration="569000" />
+      <workItem from="1702226764620" duration="7865000" />
+      <workItem from="1702373625764" duration="16324000" />
+      <workItem from="1702467145014" duration="5875000" />
+      <workItem from="1702545549003" duration="9650000" />
+      <workItem from="1702629645849" duration="6682000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1697964557223</created>
@@ -275,7 +314,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700117579994</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add login">
+      <option name="closed" value="true" />
+      <created>1701296810070</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1701296810070</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -296,7 +343,8 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="Image arrangement" />
     <MESSAGE value="create a jar file" />
-    <option name="LAST_COMMIT_MESSAGE" value="create a jar file" />
+    <MESSAGE value="add login" />
+    <option name="LAST_COMMIT_MESSAGE" value="add login" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

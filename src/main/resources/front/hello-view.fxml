@@ -57,5 +57,10 @@
             <Image url="@images/1-yellow.png" />
          </image>
       </ImageView>
+      <ImageView fitHeight="167.0" fitWidth="117.0" layoutX="236.0" layoutY="172.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../javafx/src/main/resources/front/images/Screenshot%202023-12-06%20162307.png" />
+         </image>
+      </ImageView>
    </children>
 </AnchorPane>
