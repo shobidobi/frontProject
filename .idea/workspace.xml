@@ -9,22 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f0031ae-79f6-4da1-9a1a-c1804c304608" name="Changes" comment="add login">
-      <change afterPath="$PROJECT_DIR$/javafx/src/main/java/front/ForgotPassword.java" afterDir="false" />
+    <list default="true" id="7f0031ae-79f6-4da1-9a1a-c1804c304608" name="Changes" comment="add register and reset password">
       <change afterPath="$PROJECT_DIR$/javafx/src/main/java/targiil/Point2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javafx/src/main/resources/front/forgot_Password.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javafx/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/javafx/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javafx/src/main/java/Logic/Tile.java" beforeDir="false" afterPath="$PROJECT_DIR$/javafx/src/main/java/Logic/Tile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javafx/src/main/java/front/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/javafx/src/main/java/front/HelloApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javafx/src/main/java/front/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/javafx/src/main/java/front/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javafx/src/main/java/front/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/javafx/src/main/java/front/Register.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javafx/src/main/java/front/Scene_Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/javafx/src/main/java/front/Scene_Manager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javafx/src/main/java/front/TryApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/javafx/src/main/java/front/TryApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javafx/src/main/resources/front/login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/javafx/src/main/resources/front/login.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javafx/src/main/resources/front/register.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/javafx/src/main/resources/front/register.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/front/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/front/hello-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -276,7 +263,7 @@
       <workItem from="1702373625764" duration="16324000" />
       <workItem from="1702467145014" duration="5875000" />
       <workItem from="1702545549003" duration="9650000" />
-      <workItem from="1702629645849" duration="6682000" />
+      <workItem from="1702629645849" duration="7327000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1697964557223</created>
@@ -322,7 +309,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701296810070</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add register and reset password">
+      <option name="closed" value="true" />
+      <created>1702642635431</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1702642635431</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -344,7 +339,8 @@
     <MESSAGE value="Image arrangement" />
     <MESSAGE value="create a jar file" />
     <MESSAGE value="add login" />
-    <option name="LAST_COMMIT_MESSAGE" value="add login" />
+    <MESSAGE value="add register and reset password" />
+    <option name="LAST_COMMIT_MESSAGE" value="add register and reset password" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
