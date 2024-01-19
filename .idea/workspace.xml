@@ -10,8 +10,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f0031ae-79f6-4da1-9a1a-c1804c304608" name="Changes" comment="add register and reset password">
-      <change afterPath="$PROJECT_DIR$/javafx/src/main/java/targiil/Point2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx/src/main/java/front/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx/src/main/resources/front/images/3c74c280f2119af8fd1d5bc8f6f84c80 (1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx/src/main/resources/front/images/Screenshot 2023-12-06 162307.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx/src/main/resources/front/images/bac.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx/src/main/resources/front/images/backgroundReset.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx/src/main/resources/front/images/הורדה.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javafx/src/main/java/front/DraggableMaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/javafx/src/main/java/front/DraggableMaker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javafx/src/main/java/front/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/javafx/src/main/java/front/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javafx/src/main/resources/front/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/javafx/src/main/resources/front/hello-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/front/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/front/hello-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,13 +35,14 @@
       <list>
         <option value="module-info" />
         <option value="FxmlFile" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/javafx" />
+    <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -263,7 +273,21 @@
       <workItem from="1702373625764" duration="16324000" />
       <workItem from="1702467145014" duration="5875000" />
       <workItem from="1702545549003" duration="9650000" />
-      <workItem from="1702629645849" duration="7327000" />
+      <workItem from="1702629645849" duration="9308000" />
+      <workItem from="1702750197177" duration="625000" />
+      <workItem from="1702816768342" duration="4090000" />
+      <workItem from="1703073213460" duration="2671000" />
+      <workItem from="1703142325948" duration="604000" />
+      <workItem from="1703145563451" duration="8876000" />
+      <workItem from="1703236664830" duration="3912000" />
+      <workItem from="1703582275993" duration="3249000" />
+      <workItem from="1703593926212" duration="6868000" />
+      <workItem from="1703683986972" duration="10787000" />
+      <workItem from="1704043233516" duration="623000" />
+      <workItem from="1704372994040" duration="13067000" />
+      <workItem from="1704557492190" duration="600000" />
+      <workItem from="1704639572325" duration="1278000" />
+      <workItem from="1705656981791" duration="422000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1697964557223</created>
@@ -317,18 +341,63 @@
       <option name="project" value="LOCAL" />
       <updated>1702642635431</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add register and reset password">
+      <option name="closed" value="true" />
+      <created>1702643198029</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1702643198029</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="HEAD" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/master" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>

@@ -16,22 +16,22 @@
             <Rectangle2D />
          </viewport>
       </ImageView>
-      <ImageView fx:id="board_right" fitHeight="288.0" fitWidth="120.0" layoutX="834.0" layoutY="130.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="board_right" fitHeight="288.0" fitWidth="120.0" layoutX="838.0" layoutY="130.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@images/board_Le_Ri.png" />
          </image>
       </ImageView>
-      <ImageView fx:id="board_up" fitHeight="62.0" fitWidth="394.0" layoutX="308.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="board_up" fitHeight="62.0" fitWidth="394.0" layoutX="308.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@images/boardAgainst.png" />
          </image>
       </ImageView>
-      <ImageView fx:id="board_left" fitHeight="288.0" fitWidth="120.0" layoutX="14.0" layoutY="157.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="board_left" fitHeight="288.0" fitWidth="120.0" layoutX="7.0" layoutY="157.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@images/board_Le_Ri.png" />
          </image>
       </ImageView>
-      <Button fx:id="welcomeText" layoutX="436.0" layoutY="348.0" mnemonicParsing="false" text="Button" />
+      <Button fx:id="welcomeText" layoutX="21.0" layoutY="520.0" mnemonicParsing="false" onMouseClicked="#gps" text="Button" />
       <ImageView fx:id="mainBoard" fitHeight="141.0" fitWidth="617.0" layoutX="168.0" layoutY="463.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@images/MyBoard.png" />
@@ -42,12 +42,12 @@
             <Image url="@images/1-yellow.png" />
          </image>
       </ImageView>
-      <ImageView fx:id="image" fitHeight="150.0" fitWidth="200.0" layoutX="582.0" layoutY="159.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="image" fitHeight="150.0" fitWidth="200.0" layoutX="773.0" layoutY="445.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@images/9-black.png" />
          </image>
       </ImageView>
-      <ImageView fx:id="deckI" fitHeight="114.0" fitWidth="243.0" layoutX="89.0" layoutY="234.0" onMouseClicked="#clickDeck" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="deckI" fitHeight="114.0" fitWidth="243.0" layoutX="79.0" layoutY="234.0" onMouseClicked="#clickDeck" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@images/deckImage.png" />
          </image>
@@ -55,11 +55,6 @@
       <ImageView fx:id="tryc" fitHeight="62.0" fitWidth="52.0" layoutX="107.0" layoutY="260.0" pickOnBounds="true" preserveRatio="true" visible="false">
          <image>
             <Image url="@images/1-yellow.png" />
-         </image>
-      </ImageView>
-      <ImageView fitHeight="167.0" fitWidth="117.0" layoutX="236.0" layoutY="172.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../../../../javafx/src/main/resources/front/images/Screenshot%202023-12-06%20162307.png" />
          </image>
       </ImageView>
    </children>
